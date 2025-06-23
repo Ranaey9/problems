@@ -66,3 +66,10 @@
 #     sum += sayi
 # ortalama = sum / n
 # print("Ortalama:", ortalama)
+
+# faktöriyel hesaplama
+# n=int (input("Lütfen bir sayı giriniz: "))
+# faktoriyel = 1
+# for i in range(1, n + 1):
+#     faktoriyel *= i
+# print("Faktöriyel:", faktoriyel)
