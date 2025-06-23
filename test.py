@@ -20,6 +20,7 @@
 # else:
 #     print("Zero")
 
+# geçme durumu hesaplama
 # nott = int(input("Lütfen notunuzu giriniz: "))
 # if nott >= 90 and nott <= 100:
 #     print("Puanınız: AA")
