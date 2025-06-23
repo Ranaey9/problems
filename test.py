@@ -57,3 +57,12 @@
 # for i in range (1,numb+1): #for numb in range(2,101,2): 2’den başla, 2’şer artırarak 100’e kadar git.
 #     if i % 2 == 0:
 #         print(i)
+
+#  Kullanıcıdan alınan N sayının ortalamasını hesapla
+# n=int(input("Kaç sayı gireceksiniz? "))
+# sum=0
+# for i in range(n):
+#     sayi= int(input("Sayıyı giriniz: "))
+#     sum += sayi
+# ortalama = sum / n
+# print("Ortalama:", ortalama)
