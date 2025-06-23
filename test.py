@@ -40,7 +40,8 @@
 # while sayi <= 10:
 #     print(sayi)
 #     sayi += 1
- 
+
+# 0 girene kadar sayılar topla
 # toplam = 0
 # i = 0
 # while True:  # sürekli çalışsın ama kesinlikle break kullan
@@ -50,3 +51,9 @@
 #     toplam += sayi
 #     i += 1
 # print("Toplam:", toplam)
+
+# cift sayılar 
+# numb=int (input("Lütfen bir sayı giriniz: "))
+# for i in range (1,numb+1): #for numb in range(2,101,2): 2’den başla, 2’şer artırarak 100’e kadar git.
+#     if i % 2 == 0:
+#         print(i)
