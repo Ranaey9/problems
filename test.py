@@ -86,3 +86,42 @@
 # else:
 #     print("asal") 
 
+# Girilen Sayıya Kadar Olan Asal Sayıları Listele
+# sayi = int(input("Bir sayı giriniz: "))
+# for j in range(2, sayi + 1):
+#     asal = True
+#     for i in range(2, j):
+#         if j % i == 0:
+#             asal = False
+#             break
+#     if asal:
+#         print(j)
+
+# Girilen N sayıyı listeye ekle, içinden en büyük ve en küçük olanı yazdır.
+# n=int(input("Kaç sayı gireceksiniz? "))
+# max1=0
+# min1=0
+# liste=[]
+# for i in range(0,n):
+#     sayi= int(input("Sayıyı giriniz: "))
+#     liste.append(sayi)
+#     max1=max(liste)
+#     min1=min(liste)
+# print("En büyük sayı:", max1)
+# print("En küçük sayı:", min1)
+# print("Liste:", liste)
+
+# Ortalama üzerindeki sayıları bul
+# n = int(input("Kaç sayı gireceksiniz? "))
+# liste = []
+# sum=0
+# for i in range(0,n):
+#     sayi = int(input("sayıyı giriniz: "))
+#     liste.append(sayi)
+# sum+=sayi
+# ortalama = sum / n
+# print("Ortalama:", ortalama)
+# print("Ortalama üzeri sayılar:")
+# for s in liste:
+#     if s > ortalama:
+#         print(s)
