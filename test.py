@@ -74,3 +74,15 @@
 # for i in range(1, n + 1):
 #     faktoriyel *= i
 # print("Faktöriyel:", faktoriyel)
+
+# Bir sayının asal olup olmadığını bulan
+# numb=int (input("Lütfen bir sayı giriniz: "))
+# if numb <2 :
+#     print("asal degil")
+# for i in range(2,numb):
+#     if numb%i==0:
+#         print("asal degil")
+#         break
+# else:
+#     print("asal") 
+
