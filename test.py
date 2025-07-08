@@ -125,3 +125,18 @@
 # for s in liste:
 #     if s > ortalama:
 #         print(s)
+
+# Personelin sabit maaşı ve çocuk sayısı girildiğinde yeni maaş miktarını hesaplayınız.
+# (Çocuk sayısı 1 ise %5, iki ise %10,üç veya daha fazla ise %15 zam yapılacaktır.)
+maas = float(input("Personelin maaşını giriniz: "))
+cocuk_sayisi = int(input("Çocuk sayısını giriniz: "))
+if cocuk_sayisi == 1:
+    zam_orani = 0.05
+elif cocuk_sayisi == 2:
+    zam_orani = 0.10
+elif cocuk_sayisi >= 3:
+    zam_orani = 0.15
+else:
+    zam_orani = 0.0  # Çocuk yoksa zam yapılmaz
+yeni_maas = maas + (maas * zam_orani)
+print(f"Yeni maaş: {yeni_maas:.2f} TL")
